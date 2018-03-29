@@ -1,0 +1,19 @@
+run
+reStart
+trait Plus[A] {def plus(a1:a,a2:A):A}
+import scala.concurrent.Future
+import scala.concurrent.ExecutionContext.Implicits.global
+console
+build
+reload
+update
+compile
+run
+run 9
+compile
+update
+run
+clean
+run
+2
+run
